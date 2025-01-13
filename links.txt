@@ -1,0 +1,5 @@
+link kaggle:
+https://www.kaggle.com/datasets/joebeachcapital/30000-spotify-songs?select=spotify_songs.csv
+
+link Flourish:
+https://public.flourish.studio/story/2817163/
