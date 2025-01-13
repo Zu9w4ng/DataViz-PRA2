@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<tempo &le; -0.034<br/>samples = 100.0%<br/>value = [0.5, 0.5]<br/>class = 0>, fillcolor="#ffffff"] ;
+1 [label=<tempo &le; -0.773<br/>samples = 35.2%<br/>value = [0.775, 0.225]<br/>class = 0>, fillcolor="#eda672"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+11 [label=<samples = 18.0%<br/>value = [0.877, 0.123]<br/>class = 0>, fillcolor="#e99355"] ;
+1 -> 11 ;
+12 [label=<samples = 17.2%<br/>value = [0.668, 0.332]<br/>class = 0>, fillcolor="#f2bf9b"] ;
+1 -> 12 ;
+2 [label=<tempo &le; 0.326<br/>samples = 64.8%<br/>value = [0.351, 0.649]<br/>class = 1>, fillcolor="#a4d2f3"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label=<energy &le; -0.331<br/>samples = 40.1%<br/>value = [0.153, 0.847]<br/>class = 1>, fillcolor="#5dafea"] ;
+2 -> 3 ;
+9 [label=<Popularity &le; 0.404<br/>samples = 4.3%<br/>value = [0.437, 0.563]<br/>class = 1>, fillcolor="#d3e9f9"] ;
+3 -> 9 ;
+13 [label=<samples = 2.5%<br/>value = [0.271, 0.729]<br/>class = 1>, fillcolor="#83c2ef"] ;
+9 -> 13 ;
+14 [label=<samples = 1.7%<br/>value = [0.676, 0.324]<br/>class = 0>, fillcolor="#f1bd98"] ;
+9 -> 14 ;
+10 [label=<samples = 35.9%<br/>value = [0.119, 0.881]<br/>class = 1>, fillcolor="#54aae9"] ;
+3 -> 10 ;
+4 [label=<energy &le; 0.195<br/>samples = 24.7%<br/>value = [0.672, 0.328]<br/>class = 0>, fillcolor="#f2bf9a"] ;
+2 -> 4 ;
+5 [label=<samples = 11.3%<br/>value = [0.819, 0.181]<br/>class = 0>, fillcolor="#eb9d65"] ;
+4 -> 5 ;
+6 [label=<valence &le; -0.657<br/>samples = 13.4%<br/>value = [0.549, 0.451]<br/>class = 0>, fillcolor="#fae9dc"] ;
+4 -> 6 ;
+7 [label=<samples = 4.5%<br/>value = [0.301, 0.699]<br/>class = 1>, fillcolor="#8ec7f0"] ;
+6 -> 7 ;
+8 [label=<samples = 8.9%<br/>value = [0.674, 0.326]<br/>class = 0>, fillcolor="#f2be99"] ;
+6 -> 8 ;
+}
